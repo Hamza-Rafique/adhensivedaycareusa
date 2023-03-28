@@ -1,0 +1,26 @@
+.bg-color {
+	background-color: rgb(192, 142, 124);
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+}
+@media (min-width: 1536px) {
+	.bg-color {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.bg-color {
+		font-size: 18px;
+	}
+}
+@media (min-width: 1024px) {
+	.bg-color {
+		font-size: 18px;
+	}
+}
+@media (min-width: 768px) {
+	.bg-color {
+		font-size: 20px;
+	}
+}
