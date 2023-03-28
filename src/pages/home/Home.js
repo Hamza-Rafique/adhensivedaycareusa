@@ -1,6 +1,8 @@
 import React from "react";
+import AboutUs from "../../components/aboutus/Aboutus";
 import CollapsibleExample from "../../components/header/Header";
 import HeroSection from "../../components/hero/Hero";
+import ImageSlider from "../../components/slider";
 import TopMessage from "../../components/top-message/TopMessage";
 
 const Home = () => {
@@ -17,6 +19,8 @@ const Home = () => {
         <CollapsibleExample />
         <HeroSection />
       </div>
+      <AboutUs />
+      <ImageSlider />
     </>
   );
 };

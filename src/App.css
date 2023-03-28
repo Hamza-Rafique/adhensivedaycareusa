@@ -12,3 +12,95 @@
     background-color: rgba(255, 255, 255, 0.9);
     font-size: 16px;
 }
+.about-us{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    display: block;
+    letter-spacing: normal;
+    text-transform: none;
+    background-color: rgb(255, 255, 255);
+    font-family: Lato, arial, sans-serif;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    font-size: 16px;
+}
+.heading-about{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    overflow-wrap: break-word;
+    margin-top: 0;
+    font-weight: 400;
+    margin-right: 0;
+    margin-left: 0;
+    color: rgb(27, 27, 27);
+    font-family: 'Kaushan Script', sans-serif;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 34px;
+}
+.para{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    width: 100%;
+    font-family: Lato, arial, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+.sub-heading{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    box-sizing: inherit;
+    font-family: Lato, arial, sans-serif;
+    overflow-wrap: break-word;
+    margin-top: 0;
+    font-weight: 400;
+    margin-right: 0;
+    margin-left: 0;
+    color: rgb(27, 27, 27);
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    max-width: 100%;
+    line-height: 1.25;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.pargrah{
+    width: 40%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    box-sizing: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: Lato, arial, sans-serif;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    margin-top: 0;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    flex-grow: 1;
+    max-width: 100%;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+.secound{
+    margin: 40px 0;
+}
