@@ -1,3 +1,14 @@
 .brand-text {
 	color: rgb(192, 142, 124);
 }
+.header-color{
+	-webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: Lato, arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+}

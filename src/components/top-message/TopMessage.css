@@ -2,6 +2,11 @@
 	background-color: rgb(192, 142, 124);
 	font-weight: 400;
 	color: rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
 }
 @media (min-width: 1536px) {
 	.bg-color {
