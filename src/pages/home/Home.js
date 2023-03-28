@@ -1,7 +1,10 @@
 import React from "react";
 import AboutUs from "../../components/aboutus/Aboutus";
+import Footer from "../../components/footer";
 import CollapsibleExample from "../../components/header/Header";
 import HeroSection from "../../components/hero/Hero";
+import HiringComponent from "../../components/hiring";
+import Reviews from "../../components/review";
 import ImageSlider from "../../components/slider";
 import TopMessage from "../../components/top-message/TopMessage";
 
@@ -21,6 +24,9 @@ const Home = () => {
       </div>
       <AboutUs />
       <ImageSlider />
+      <Reviews />
+      <HiringComponent />
+      <Footer />
     </>
   );
 };

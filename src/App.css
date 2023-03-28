@@ -104,3 +104,25 @@
 .secound{
     margin: 40px 0;
 }
+.brand .navbar-brand{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    margin-right: 0;
+    margin-left: 0;
+    display: inline-block;
+    font-family: 'Kaushan Script', sans-serif;
+    line-height: 1.2;
+    color: rgb(186, 137, 119);
+    font-size: 34px; 
+}
