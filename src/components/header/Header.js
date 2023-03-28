@@ -1,63 +1,41 @@
-import React from "react";
-import {
-	Navbar,
-	Nav,
-	NavDropdown,
-	Container,
-	Button,
-	Modal,
-} from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Header() {
-	const [showPopup, setShowPopup] = React.useState(false);
-
-	const handleClose = () => setShowPopup(false);
-	const handleShow = () => setShowPopup(true);
-
-	return (
-		<>
-			<header>
-				<Navbar className="text-black" expand="lg" variant="dark">
-					<Container>
-						<Navbar.Brand href="/">
-							<span className="font-weight-bold brand-text">
-								Little Rascal Daycare
-							</span>
-						</Navbar.Brand>
-						<Navbar.Toggle aria-controls="basic-navbar-nav" />
-						<Navbar.Collapse id="basic-navbar-nav">
-							<Nav className="mr-auto text-black">
-								<Nav.Link href="/">Home</Nav.Link>
-								<Nav.Link href="/event">Event</Nav.Link>
-								<Nav.Link href="/contact-us">Contact Us</Nav.Link>
-							</Nav>
-							<div className="d-flex align-items-center">
-								<NavDropdown
-									title="My Account"
-									id="basic-nav-dropdown"
-									className="mr-2">
-									<NavDropdown.Item href="/bookings">Bookings</NavDropdown.Item>
-									<NavDropdown.Item href="/my-account">
-										My Account
-									</NavDropdown.Item>
-									<NavDropdown.Item href="/my-account">
-										Sign In
-									</NavDropdown.Item>
-									<NavDropdown.Item href="/my-account">
-										Create Account
-									</NavDropdown.Item>
-								</NavDropdown>
-								<div className="ml-2 text-light">
-									<i className="fa fa-phone mr-1" aria-hidden="true"></i>
-									<span>0305-61688-40</span>
-								</div>
-							</div>
-						</Navbar.Collapse>
-					</Container>
-				</Navbar>
-			</header>
-		</>
-	);
+function CollapsibleExample() {
+  return (
+    <Navbar collapseOnSelect expand="lg" className='header-color'>
+      <Container>
+        <Navbar.Brand href="#home">Little Rascal Daycare</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#events">Events</Nav.Link>
+			<Nav.Link href="#contact">Contact Us</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#deets">03056168840</Nav.Link>
+			<NavDropdown title="Settings" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.2">
+                Sign In
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Create Account</NavDropdown.Item>
+              <NavDropdown.Divider />
+			  <NavDropdown.Item href="#action/3.4">
+                Bookings
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                My Account
+              </NavDropdown.Item>
+			  
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Header;
+export default CollapsibleExample;
