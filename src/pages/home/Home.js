@@ -1,5 +1,4 @@
 import React from "react";
-import Aboutus from "../../components/aboutus/Aboutus";
 import CollapsibleExample from "../../components/header/Header";
 import HeroSection from "../../components/hero/Hero";
 import TopMessage from "../../components/top-message/TopMessage";
@@ -17,7 +16,6 @@ const Home = () => {
       >
         <CollapsibleExample />
         <HeroSection />
-        {/* <Aboutus /> */}
       </div>
     </>
   );
