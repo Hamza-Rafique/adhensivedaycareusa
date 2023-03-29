@@ -78,7 +78,7 @@ export default function Footer() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2020 Copyright:
-        <a className="text-white">
+        <a href="/adhensivedaycareusa" className="text-white">
         adhensivedaycareusa
         </a>
       </div>
